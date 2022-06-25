@@ -2,7 +2,7 @@ class pokemonStats():
     def hp_statsfunction(lvl,hp,iv,ev):
         total_hp = (((2 * hp + iv[0] +(ev[0]/4)) * lvl) / 100) + lvl +10
         return total_hp
-    def other_stasfunction(atk,defense,spAtk,spDef,spd,iv,lvl,nature):
+    def other_stasfunction(atk,defense,spAtk,spDef,spd,iv,ev,lvl,nature):
         str = [atk,defense,spAtk,spDef,spd,]
         x = 0
         for x in range(len(str)):
